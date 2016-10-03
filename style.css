@@ -1,0 +1,72 @@
+h1 {
+  font-family: Arial;
+}
+
+#first-p {
+    border: 6px solid black;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+footer.corner {
+text-align: right;
+
+}
+
+#first-p-b{
+  font-size: xx-large;
+  text-align: center;
+
+}
+
+#second-p{
+  font-size: large;
+
+}
+
+#p-second-a{
+  text-align: center;
+  font-weight: bold;
+  font-family: Serif;
+}
+
+
+#backround{
+
+    background:url(Chicago-muni-flag.png);
+    background-repeat: no-repeat;
+    background-size: 1068px 160px;
+    margin-left: 70px;
+    margin-right: 270px;
+    position: static; 
+    vertical-align: center;
+  }
+
+  ul.b {
+    list-style-type: square;
+}
+
+
+a:hover {
+    color: hotpink;
+}
+
+a:visited {
+    color: blue;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
